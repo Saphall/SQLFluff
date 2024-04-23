@@ -6,7 +6,7 @@ Using **SQLFluff** to lint and format SQL codes.
 
 ![image](https://github.com/Saphall/SQLFluff/assets/66344649/3365146c-a915-4893-9a1c-3b93d5e6b9a9)
 
-Examples: 
+Examples:
 
 ```zsh
 sqlfluff lint --dialect postgres .
@@ -15,7 +15,7 @@ sqlfluff fix --dialect tsql src/test.sql
 
 > Further: [CLI Reference](https://docs.sqlfluff.com/en/stable/cli.html#cli-reference)
 
-## [Configuration]()
+## [Configuration](https://docs.sqlfluff.com/en/stable/configuration.html#config)
 
 SQLFluff accepts configuration either through the command line or through configuration files. For file based configuration SQLFluff will look for the following files in order. Later files will (if found) will be used to overwrite any values read from earlier files.
 
@@ -27,15 +27,15 @@ SQLFluff accepts configuration either through the command line or through config
 
 ## Installation and Use
 
-**1. Install sqlfluff**
+### 1. Install sqlfluff
 
 ```zsh
 pip install sqlfluff
 ```
 
-**2. Add config file like [.sqlfluff](./.sqlfluff)**
+### 2. Add config file like [.sqlfluff](./.sqlfluff)
 
-**3. Test the linting**
+### 3. Test the linting
 
 ```powershell
 sqlfluff lint **/*.sql
@@ -50,11 +50,12 @@ sqlfluff lint **/*.sql
 <img src='https://github.com/Saphall/SQLFluff/assets/66344649/4c958aa2-5e95-4f0d-b352-9cec615c042d'>
 </details>
 
-**4. Fix the SQL Code**
+### 4. Fix the SQL Code
 
 ```powershell
 sqlfluff fix **/*.sql
 ```
+
 <details>
 <summary>Fixed SQL Code:</summary>
 <br>
