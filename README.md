@@ -79,11 +79,11 @@ We check the SQL lint using the workflow file: [sql_lint.yml](.github/workflows/
 <details>
 <summary>Failed CI</summary>
 <br>
-<img src= ''>
+<img src='https://github.com/Saphall/SQLFluff/assets/66344649/23120f3d-31d8-44f0-843d-bb3dacc3fa22'>
 </details>
 
 <details>
 <summary>Passed CI</summary>
 <br>
-<img src= ''>
+<img src='https://github.com/Saphall/SQLFluff/assets/66344649/2aa000ee-e466-4f4c-86ed-2dd62bcac462'>
 </details>
