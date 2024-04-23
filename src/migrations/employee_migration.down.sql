@@ -1,1 +1,1 @@
-drop table if exists raw.employee;
+DROP TABLE IF EXISTS raw.employee;
