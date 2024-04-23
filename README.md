@@ -67,3 +67,23 @@ FROM test;
 <br>
 <img src='https://github.com/Saphall/SQLFluff/assets/66344649/b6436dc2-8887-4d86-b711-9b91348f71dd'>
 </details>
+
+## Workflow
+
+On the basis of [Rolling out SQLFluff with a new team](https://docs.sqlfluff.com/en/stable/teamrollout.html), added the workflow test.
+
+We check the SQL lint using the workflow file: [sql_lint.yml](.github/workflows/sql_lint.yml)
+
+> Refer: [PR](https://github.com/Saphall/SQLFluff/pull/1)
+
+<details>
+<summary>Failed CI</summary>
+<br>
+<img src= ''>
+</details>
+
+<details>
+<summary>Passed CI</summary>
+<br>
+<img src= ''>
+</details>
